@@ -1,0 +1,28 @@
+Why Seaborn?
+
+1) provides a layer of abstraction hence simpler to use
+2) better aesthetics
+3) more graphs included
+
+Seaborn Roadmap -
+
+1) Types of Functions
+
+Figure Level(figure is the blank white space where the graph is located)
+Axis Level(axis is the plot which is inside the blank space)
+
+note - figure level comes in top of heirarchy , then comes axis level
+
+2) Main Classification
+
+Relational Plot(scatterplot , line plot, Relplot - it is used for making axes level plots in figure level plots, why? because through figure level plots many axes level plots can be made
+)
+Distribution Plot(histogram, kdeplot, rugplot, displot - figure to axes level)
+Categorical Plot(barplot, countplot, boxplot, violinplot)
+Regression Plot
+Matrix Plot(heatmap, clustermap)
+Multiplots(jointplot, pairplot)
+
+
+https://seaborn.pydata.org/api.html
+
